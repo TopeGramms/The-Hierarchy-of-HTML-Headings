@@ -12,6 +12,7 @@
     #navbar {
         position: static;
         width: 100%;
+        height: auto;
     }
     #main-doc {
       margin: 0;
@@ -26,7 +27,7 @@
       background-color: #ffffff;
       font-family: 'Open Sans', Arial, sans-serif;
       line-height: 1.5;
-      margin: 1;
+      margin: 0;
   }
   #navbar{
        position: fixed;
