@@ -4,13 +4,22 @@
       width: 90%;
     }
   }
-  
+   
   @media screen and (max-width: 768px) {
     .body {
       width: 100%;
     }
-  }
-  
+    #navbar {
+        position: static;
+        width: 100%;
+    }
+    #main-doc {
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      width: 100%;
+    }
+  }  
   html, body {
       min-width: 290px;
       color: #4d4e53;
@@ -57,7 +66,7 @@
       position: absolute;
       margin-left: 310px;
       padding: 20px;
-      margin-bottom: 110px;
+      margin-bottom: 10px;
   }  
   a {
      color: #4d4e53;
